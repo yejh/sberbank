@@ -1,0 +1,40 @@
+# train.csv和test.csv
+price_doc：销售价格（这是目标变量）
+id：事务ID
+时间戳：事务日期
+full_sq：平方米，总面积包括廊、阳台等非住宅区
+life_sq：居住面积平方米，不包括凉廊、阳台等非住宅区
+楼层：公寓，楼层
+max_floor：在楼层数
+材料：墙体材料
+build_year：今年建成
+num_room：居室数
+kitch_sq：厨房面积
+状态：公寓条件
+product_type：业主购买或投资
+sub_area：小区的名字
+数据集还包括收集关于每个属性的附近功能，和一些在每个子区域是不变的特征（称为该）。大多数特征名称都是自解释的，具有以下注释。见下一个完整的列表。
+full_all：分区人口
+male_f，female_f：性别分区人口
+young_ *：工作年龄人口比
+work_ *：劳动年龄人口
+ekder_ *：退休年龄的人口
+n_m_ {所有|男性|女}：人口n和m岁之间
+build_count_ *：建筑类型或年分区建筑
+x_count_500：内物业500m x号
+x_part_500：在财产份额500m x
+_sqm_：平方米
+cafe_count_d_price_p：某范围内咖啡馆数量
+trc_：商场
+prom_：工业区
+green_：绿区
+metro_：地铁
+_avto_：距离汽车
+mkad_：莫斯科圈汽车路
+ttk_：第三运输环
+sadovoe_：园环
+bulvar_ring_：大道环
+kremlin_：城市中心
+zd_vokzaly_：火车站
+oil_chemistry_：脏的行业
+ts_：发电厂
